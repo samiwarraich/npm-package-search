@@ -3,7 +3,7 @@ import { Action } from "../actions";
 
 interface RepositoriesState {
   loading: boolean;
-  error: string | null;
+  error: string | null | any;
   data: string[];
 }
 
